@@ -1,20 +1,17 @@
 import java.util.Scanner;
-public class Aula05ex01 {
+
+public class aula05ex01 {
     public static void main(String[] args) {
-        
-        Scanner in = new Scanner(System.in);
+        Scanner in = new Scanner (System.in);
+        System.out.println("Digite uma frase");
+        String palavra = in.nextLine();
 
-        String s = in.next();
-        char  c = in.next().charAt(0);
-        int cont = 0;
-        for(int i = 0; i < s.length(); i++){
-            if(s.charAt(i)==c){
-                cont++;
-            }
+       String []palavras = palavra.split("\\s+");
+
+        for(int i = palavras. length-1; i >= 0; i--){
+            System.out.println(palavras[i]);
         }
-        System.out.println(cont);
 
         
-
-    }
+    }   
 }

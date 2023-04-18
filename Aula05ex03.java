@@ -1,17 +1,20 @@
 import java.util.Scanner;
-public class Aula05ex03 {
+public class aula05ex03 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+
+        String tel;
+
+        do{
+            System.out.println("Informe um telefone");
+            tel = in.nextLine();
+        }while(!(tel.matches("\\(\\d{3}\\) \\d{3}-\\d{4}")));
+
+        String [] token = tel.split("[\\s-]");
+        token[0] = token[0].replaceAll("[\\(\\)]","");
         
-        Random r = new Random();
-        
-        String [] art ={"the", "a", "one", "some", "any"};
-        String [] sub ={"boy", "girl", "dog", "town", "car"},
-        String [] verb ={"drove", "jumpped", "ran", "walked", "skipped"};
-        String [] prep ={"to", "from", "over", "under", "on"};
-
-        for(int i = 0; i < )
-
-
+        for(int i = 0; i < token.length; i++){
+            System.out.print(token[i]);
+        }
     }
 }
