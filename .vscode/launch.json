@@ -1,0 +1,244 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Alula10ex04",
+            "request": "launch",
+            "mainClass": "Alula10ex04",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "Aula04Ex01",
+            "request": "launch",
+            "mainClass": "Aula04Ex01",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "Aula04ex02",
+            "request": "launch",
+            "mainClass": "Aula04ex02",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "Aula04ex03",
+            "request": "launch",
+            "mainClass": "Aula04ex03",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "Aula04ex04",
+            "request": "launch",
+            "mainClass": "Aula04ex04",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "Aula04ex05",
+            "request": "launch",
+            "mainClass": "Aula04ex05",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "Aula07ex01",
+            "request": "launch",
+            "mainClass": "Aula07ex01",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "Aula07ex02",
+            "request": "launch",
+            "mainClass": "Aula07ex02",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "Aula07ex03",
+            "request": "launch",
+            "mainClass": "Aula07ex03",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "Aula07ex04",
+            "request": "launch",
+            "mainClass": "Aula07ex04",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "Aula08ex01",
+            "request": "launch",
+            "mainClass": "Aula08ex01",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "Aula08ex02",
+            "request": "launch",
+            "mainClass": "Aula08ex02",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "Aula09ex01",
+            "request": "launch",
+            "mainClass": "Aula09ex01",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "Aula09ex02",
+            "request": "launch",
+            "mainClass": "Aula09ex02",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "Aula10ex01",
+            "request": "launch",
+            "mainClass": "Aula10ex01",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "Aula10ex02",
+            "request": "launch",
+            "mainClass": "Aula10ex02",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "Aula10ex03",
+            "request": "launch",
+            "mainClass": "Aula10ex03",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "Aula8ex02",
+            "request": "launch",
+            "mainClass": "Aula8ex02",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "Ex02",
+            "request": "launch",
+            "mainClass": "Ex02",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "L08ex03",
+            "request": "launch",
+            "mainClass": "L08ex03",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "L08ex04",
+            "request": "launch",
+            "mainClass": "L08ex04",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "Teste",
+            "request": "launch",
+            "mainClass": "Teste",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "aula05ex01",
+            "request": "launch",
+            "mainClass": "aula05ex01",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "aula05ex02",
+            "request": "launch",
+            "mainClass": "aula05ex02",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "aula05ex03",
+            "request": "launch",
+            "mainClass": "aula05ex03",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "ex03",
+            "request": "launch",
+            "mainClass": "ex03",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "ex04",
+            "request": "launch",
+            "mainClass": "ex04",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
+            "name": "ex05",
+            "request": "launch",
+            "mainClass": "ex05",
+            "projectName": "Programacao_Modular_99852ffd"
+        }
+    ]
+}
