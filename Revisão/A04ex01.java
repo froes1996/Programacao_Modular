@@ -11,13 +11,22 @@ public class A04ex01{
         Scanner in = new Scanner(System.in);
 
         String ler = "";
-        char c = '';
+        char c;
+        int resultado = 0;
 
         System.out.println("Informe uma frase");
         ler = in.nextLine();
 
         System.out.println("Informe um caractere");
         c = in.next().charAt(0);
+
+        for(int i = 0; i < ler.length(); i ++){
+             ler.charAt(i);
+             if(ler.charAt(i) == c){
+                resultado++;
+             }
+        }
+        System.out.println(resultado);
 
         
     }
