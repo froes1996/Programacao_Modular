@@ -16,7 +16,7 @@ e "car"; o array de verbos deve conter os verbos "drove", "jumped", "ran",
 import java.util.Random;
 import java.util.Scanner;
 import java.util.random;
-public class A04ex03 {
+public class Ex03 {
     public static void main(String[] args) {
             Scanner in = new Scanner(System.in);
         Random r = new Random();

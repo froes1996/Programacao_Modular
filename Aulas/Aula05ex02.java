@@ -1,6 +1,6 @@
 package Aulas;
 import java.util.Scanner;
-public class aula05ex02 {
+public class Aula05ex02 {
    public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
         
@@ -9,7 +9,7 @@ public class aula05ex02 {
     do{
         System.out.println("Informe o usuário");
         usuario = in.next();
-        }while(!(usuario.matches("[A-Z][a-z]+")));
+        }while(!(usuario.matches("[A-Z] [a-z]+")));
 
        
        

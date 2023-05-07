@@ -5,7 +5,7 @@ na tela.
 Não converter a String para um array de caracteres.
 */
 import java.util.Scanner;
-public class A04ex01{
+public class Ex01{
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
