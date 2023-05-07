@@ -10,18 +10,23 @@ public class A04ex02 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        String palavra = "";
+        String palavra;
         char c;
-        int resultado=0;
+        int cont = 0;
 
         System.out.println("Informe uma frase");
         palavra = in.nextLine();
 
         System.out.println("Informe um caracter de pesquisa");
         c = in.next().charAt(0);
-        
-            resultado = palavra.indexOf(c, 0);
+            
+        for(int i = 0;i < palavra.length();i++){
+            if(palavra.indexOf(c, i) > -1){
+                cont++;
+                i = palavra.indexOf(c, i);
+            }
+        }    
 
-        System.out.println(resultado);
+        System.out.println(cont);
     }
 }
