@@ -29,6 +29,6 @@ public class Ex08 {
             token[i] = token[i].substring(1) + token[i].toLowerCase().charAt(0) + "ay ";
             frase = frase + token[i] + "";
         }
-        System.out.println(frase.toLowerCase().charAt(0) + " " + frase.substring(1) + " \n");
+        System.out.println(frase.toLowerCase().charAt(0) + frase.substring(1) + " \n");
     }
 }
