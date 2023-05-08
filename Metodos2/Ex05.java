@@ -17,6 +17,9 @@ do exercício e, caso seja possível, atribuir uma poltrona ao passageiro.
 */
 public class Ex05 {
     public static void atribuiPoltrona(boolean poltronas, char passageiro){
-        
+
+    }
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
     }
 }

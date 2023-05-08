@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ex04",
+            "request": "launch",
+            "mainClass": "Sobrecarregados.Ex04",
+            "projectName": "Programacao_Modular_99852ffd"
+        },
+        {
+            "type": "java",
             "name": "Attach",
             "request": "attach",
             "hostName": "localhost",
