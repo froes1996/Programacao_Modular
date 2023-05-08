@@ -10,23 +10,25 @@ os últimos quatro dígitos do número de telefone como um terceiro token
 • Remova os parênteses do primeiro token utilizando o método replaceAll
 • Imprima na tela o telefone concatenando todos os tokens: 5555555555
  */
+package String;
 
 import java.util.Scanner;
+
 public class Ex07 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
         String tel;
 
-        do{
+        do {
             System.out.println("Informe um telefone");
             tel = in.nextLine();
-        }while(! (tel.matches("\\(\\d{3}\\) \\d{3}-\\d{4}")));
+        } while (!(tel.matches("\\(\\d{3}\\) \\d{3}-\\d{4}")));
 
-        String [] token = tel.split("[\\s-]");
-        token[0] = token[0].replaceAll("[\\(\\)]","");
+        String[] token = tel.split("[\\s-]");
+        token[0] = token[0].replaceAll("[\\(\\)]", "");
 
-        for(int i = 0; i < token.length; i++){
+        for (int i = 0; i < token.length; i++) {
             System.out.print(token[i]);
         }
 

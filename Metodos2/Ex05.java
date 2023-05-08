@@ -1,4 +1,5 @@
 package Metodos2;
+
 /*Crie um método void atribuiPoltrona que receba dois parâmetros: o
 vetor boolean de poltronas e a opção da classe. O método deve
 atribuir a poltrona ao passageiro.
@@ -16,9 +17,10 @@ verificar se é possível adicionar o passageiro conforme o enunciado
 do exercício e, caso seja possível, atribuir uma poltrona ao passageiro.
 */
 public class Ex05 {
-    public static void atribuiPoltrona(boolean poltronas, char passageiro){
+    public static void atribuiPoltrona(boolean[] poltronas, char classe) {
 
     }
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
     }

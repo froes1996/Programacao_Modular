@@ -13,17 +13,22 @@ Latin. A frase deve iniciar com uma letra maiúscula.
 • Ex.: Frase: “The boy likes ice cream” Saída: “Hetay oybay ikeslay ceiay reamcay”
 21
  */
+package String;
+
 import java.util.Scanner;
+
 public class Ex08 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
         String frase = "The boy likes ice cream";
 
-        String [] token = frase.split("");
+        String[] token = frase.split("\\s+");
 
-        for(int i = 0; i < token.length; i++){
-            System.out.print(token[i]);
+        for (int i = 0; i < token.length; i++) {
+            token[i] = token[i].substring(1) + token[i].toLowerCase().charAt(0) + "ay ";
+            frase = frase + token[i] + "";
         }
+        System.out.println(frase.toLowerCase().charAt(0) + " " + frase.substring(1) + " \n");
     }
 }
