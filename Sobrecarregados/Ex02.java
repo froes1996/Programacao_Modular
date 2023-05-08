@@ -1,7 +1,7 @@
-package Aulas;
+package Sobrecarregados;
 import java.util.Scanner;
 
-public class Aula09ex02 {
+public class Ex02 {
     public static int contar(String cont) {
         int resultado = cont.length();
         return resultado;

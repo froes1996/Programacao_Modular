@@ -1,7 +1,7 @@
-package Aulas;
+package Revisão;
 import java.util.Scanner;
 
-public class Alula10ex04 {
+public class Ex04 {
     public static void transforma(int[][] mt) {
         int[][] m = new int[mt.length][mt.length];
         for (int i = 0; i < mt.length; i++) {

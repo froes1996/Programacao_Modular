@@ -1,4 +1,4 @@
-package Aulas;
+package Revisão;
 /*Escreva dois métodos sobrecarregados chamados concatenar.
 • O primeiro deve aceitar um parâmetro do tipo array de caracteres e
 retornar uma string que seja a concatenação de todos os caracteres
@@ -10,7 +10,7 @@ todos os caracteres dos dois arrays.
 métodos criados e mostrar na tela os resultados.
 */
 import java.util.Scanner;
-public class Aula10ex05 {
+public class Ex05 {
     public static String concatenar(char [] c1){
         String resultado = "";
         for(int i = 0; i < c1.length; i++){

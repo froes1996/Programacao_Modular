@@ -16,5 +16,7 @@ verificar se é possível adicionar o passageiro conforme o enunciado
 do exercício e, caso seja possível, atribuir uma poltrona ao passageiro.
 */
 public class Ex05 {
-    
+    public static void atribuiPoltrona(boolean poltronas, char passageiro){
+        
+    }
 }

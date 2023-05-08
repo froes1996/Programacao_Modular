@@ -1,7 +1,7 @@
-package Aulas;
+package Revisão;
 import java.util.Scanner;
 
-public class Aula10ex02 {
+public class Ex02 {
     public static void trocaVetor(int[]v){
         int troca = 0;
         for(int i = 0; i < v.length - 1; i++){

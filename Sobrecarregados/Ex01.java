@@ -1,6 +1,6 @@
-package Aulas;
+package Sobrecarregados;
 import java.util.Scanner;
-public class Aula09ex01 {
+public class Ex01 {
     public static double calculaNotaFinal(double prova1, double prova2){
         double resultado = (prova1 + prova2) / 2;
         return resultado;

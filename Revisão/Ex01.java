@@ -1,6 +1,6 @@
-package Aulas;
+package Revisão;
 import java.util.Scanner;
-public class Aula10ex01 {
+public class Ex01 {
     public static int calculaFatorial(int n){
         int fatorial = 1;
         for(int i = 1; i <= n; i++){
