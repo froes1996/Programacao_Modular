@@ -17,11 +17,23 @@ verificar se é possível adicionar o passageiro conforme o enunciado
 do exercício e, caso seja possível, atribuir uma poltrona ao passageiro.
 */
 public class Ex05 {
+<<<<<<< HEAD
+    public static void atribuiPoltrona(boolean[] poltronas, int classe){
+
+    }
+    public static boolean primeiraClasseCheia(boolean []poltronas){
+
+    }
+    public static boolean classeEconomicaCheia(boolean []poltronas){
+=======
     public static void atribuiPoltrona(boolean[] poltronas, char classe) {
+>>>>>>> 9dd20150cc1c33ec4d6cab884d0195061251f2c7
 
     }
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        
+
     }
 }
