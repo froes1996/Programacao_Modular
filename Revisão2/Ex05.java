@@ -20,7 +20,7 @@ public class Ex05 {
         int soma = 0;
         if(s1.equals("")){
             throw new StringVaziaException();
-        }if(! s1.matches("^[0-9,]+$")){/*Está sempre caindo neste if, creio que a expressão regular está incorreta, porém não  */
+        }if(! s1.matches("^[0-9,]+$")){
             throw new NumberFormatException();
         }
        else{
