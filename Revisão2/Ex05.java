@@ -20,7 +20,7 @@ public class Ex05 {
         int soma = 0;
         if(s1.equals("")){
             throw new StringVaziaException();
-        }if(! s1.matches("[^,0-9]")){
+        }if(! s1.matches("^[0-9,]+$")){/*Está sempre caindo neste if, creio que a expressão regular está incorreta, porém não  */
             throw new NumberFormatException();
         }
        else{
@@ -46,7 +46,6 @@ public class Ex05 {
             break;
         } catch (StringVaziaException e) {
             System.out.println("A sequencia não pode estar vazia");
-            break;
         }catch(NumberFormatException e){
             System.out.println("Digite uma sequencia valida de numeros");
           
